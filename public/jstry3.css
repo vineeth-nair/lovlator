@@ -1,0 +1,54 @@
+* {box-sizing: border-box}
+body {font-family: Nunito; margin:0}
+
+
+/* Slides */
+.mySlides {
+    position: absolute;
+    top: 140px;
+    right: 16px;
+    width: 50%;  
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+ 
+
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -150px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 55px;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+    position: absolute;
+    right: 700px;
+    border-radius: 3px 0 0 3px;
+  }
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
