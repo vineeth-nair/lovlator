@@ -68,7 +68,31 @@ button {
 
 @media only screen and (max-width:720px) {
   /* For mobile phones: */
-   #heading, .slideshow-container {
-    width: 100%;
-   }
+  #heading {
+    font-size:50px;
   }
+
+  .mySlides{
+
+    position: absolute;
+    top: 480px;
+    right: 16px;
+    width: 100%;  
+  display: none;
+  padding: 80px;
+  text-align: center;
+    
+  }
+.next, .prev{
+  opacity: 0;
+}
+button{
+  width: 50%;
+}
+label{
+  width: 50%;
+}
+#soul1, #soul2{
+  width: 50%;
+}
+}
