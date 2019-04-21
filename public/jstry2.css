@@ -68,7 +68,7 @@ button {
 
 @media only screen and (max-width:720px) {
   /* For mobile phones: */
-   #move, .slideshow-container {
+   #heading, .slideshow-container {
     width: 100%;
    }
   }
