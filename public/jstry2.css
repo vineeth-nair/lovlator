@@ -65,3 +65,10 @@ button {
   clear: both;
   display: table;
 }
+
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+   #move, .slideshow-container {
+    width: 100%;
+   }
+  }
